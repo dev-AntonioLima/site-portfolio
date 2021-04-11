@@ -21,15 +21,15 @@ background-size: cover;
 position: relative;
 }
 
-.fas.fa-code{
-  color: #ffffff;
-font-size: 40px;
+
+.logo-header p, .fas.fa-code  {
+    color: #ffffff;
+    font-size: 20px;
+    display: inline-block;
 }
 
-#nome-header{
-font-size: 20px;
-color: #FFFFFF;
-}
+
+
 
 nav{
 display: flex;
@@ -48,10 +48,18 @@ display: flex;
 nav ul li a{
 margin: 30px;
 font-family: myriad pro regular;
-color: #ffffff;
-font-size: 20px;
+color: #6b6a6a;
+font-size: 14px;
 font-weight:700;
 align-items: right;
+}
+
+nav a:hover{
+color: rgb(189, 185, 185);
+}
+
+ .nav-link.active{
+    color: rgb(255, 255, 255);
 }
 
 
@@ -199,4 +207,30 @@ border-radius: 10px;
 border: thin gray;
 margin: 0.7em;
 padding: 0.75em;
+}
+
+.sobre{
+font-size: 16px;
+background: linear-gradient(rgba(99, 93, 93, 0.137),rgba(34, 31, 31, 0.5)100%);
+
+height: 400px;
+background-repeat: no-repeat;
+background-size: 100% 99%;
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+
+}
+
+.sobre img{
+ height: 350px;
+ width: 350px;
+ border-radius: 300px;
+ align-self: left;
+ padding-left: 20px;
+}
+
+.sobre-texto{
+    text-align:right;
 }
