@@ -1,5 +1,5 @@
 body{
-background-color:#f6f5f5;
+  
 margin:0px;
 padding:opx;
 }
@@ -22,11 +22,16 @@ position: relative;
 }
 
 
-.logo-header p, .fas.fa-code  {
+.logo-header i , .logo-header p {
     color: #ffffff;
-    font-size: 20px;
-    display: inline-block;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
 }
+
+
 
 
 
@@ -43,6 +48,7 @@ padding: 0px 5%;
 
 nav ul{
 display: flex;    
+justify-content: flex-end;
 }
 
 nav ul li a{
