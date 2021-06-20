@@ -1,11 +1,22 @@
 .cards{
-       width: 100vw;
+    width: 100vw;
     height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
+@media(max-width:500px){
+    .cards{
+        flex-direction: column;
+        margin: 2px;
+        height:170vh;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+}
 
 .card {
 display: grid;
