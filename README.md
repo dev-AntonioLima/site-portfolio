@@ -1,4 +1,4 @@
-# site-portifolio
+# site-portfolio
 Repositório destinado ao meu site pessoal para demonstração de trabalhos realizados.
 
 <a href="https://dev-antoniolima.github.io/site-portfolio/">
