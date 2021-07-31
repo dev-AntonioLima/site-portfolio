@@ -16,6 +16,12 @@ width: 190px;
 @media screen and (max-width: 900px){
 .descricao{
 width: 50%;
+
+}
+
+herder.container{
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .card {

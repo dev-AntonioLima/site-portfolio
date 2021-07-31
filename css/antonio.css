@@ -1,5 +1,4 @@
 body{
-  
 margin:0px;
 padding:opx;
 }
@@ -15,7 +14,7 @@ text-decoration:none;
 section{
 width:100%;
 height:95vh;
-background-color: rgb(202, 223, 224);
+
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
@@ -26,20 +25,18 @@ position: relative;
     color: #ffffff;
     font-size: 18px;
     display: flex;
-    /* justify-content: ; */
     text-align: center;
-    flex-wrap: wrap;
 }
 
 
 nav{
+
 display: flex;
-flex-direction: column;
-/* justify-content: space-between; */
+justify-content: space-between; 
 align-items: center;
 height: 75px;
-background-color: rgba(0, 0, 0, 0.822);
-box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+background-color: rgb(18, 78, 156);
+box-shadow: 2px 2px 12px rgba(163, 59, 59, 0.2);
 padding: 0px 5%;
 }
 
@@ -51,7 +48,7 @@ justify-content: flex-end;
 nav ul li a{
 margin: 30px;
 font-family: myriad pro regular;
-color: #6b6a6a;
+color: #f3efef96;
 font-size: 14px;
 font-weight:700;
 align-items: right;
@@ -169,11 +166,14 @@ font-size: 25px;
 bottom: 0;
 position: fixed;
 text-align: center;
-background-color: #000000;
+background-color: rgb(12, 54, 109);
 color:rgb(243, 232, 232);
 font-size: 25px;
 height: 35px;
-width: 100%;}
+width: 100%;
+}
+
+
 
 .works{
 width: 300px;
@@ -225,13 +225,21 @@ padding: 0.75em;
     align-items: flex-start;
 }
 
-.sobre img{
+.sobre #profile{
     height: 350px;
     width: 350px;
     margin-top: 20px;
     margin-left: 10px;
     border-radius: 300px;
     float: left;
+}
+
+.sobre #tecnologias-img{
+    height: 150px;
+    width: 250px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .sobre-texto{

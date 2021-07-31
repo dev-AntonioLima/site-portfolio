@@ -1,18 +1,41 @@
 .cards{
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(202, 223, 224);
    
 }
 
 @media(max-width:500px){
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+}
+
+nav ul{
+    display: flex;    
+    justify-content: space-between;
+    }
+    
+    nav ul li a{
+    margin: 5px;
+    font-family: myriad pro regular;
+    color: #f3efef96;
+    font-size: 12px;
+    font-weight:700;
+    align-items: right;
+    }
+
+
+
+
     .cards{
         flex-direction: column;
         margin: 2px;
-        height:170vh;
+        height:130vh;
     }
     .card{
         margin-bottom: 20px;
@@ -22,7 +45,7 @@
 .card {
 display: grid;
 grid-template-columns: 300px;   
-grid-template-rows: 210px 210px 80px; 
+grid-template-rows: 210px 190px 50px; 
 grid-template-areas: "image" "text" "stats";
 margin-right: 3%;
 margin-left: 2%;
@@ -53,8 +76,9 @@ font-size: 28px;
 }
 
 .card-text p {
+    margin-top: -15px;
 color: grey;
-font-size: 15px;
+font-size: 20.5px;
 font-weight: 300;
 }
 
@@ -63,8 +87,8 @@ background-color: rgb(74, 77, 73);
 }
 
 .card-stats a i {
-margin: 30px;
-font-size: 30px;
+margin: 4.5%;
+font-size: 25px;
 color: white;
 }
 

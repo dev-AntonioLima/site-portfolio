@@ -41,7 +41,7 @@ input#pesquisa{
 i{
     color: rgb(255, 255, 255);;
 }
-
+/* 
 .footer{
     display: block;
     bottom: 0;
@@ -52,7 +52,7 @@ i{
     font-size: 25px;
     height: 35px;
     width: 100%;
-}
+} */
 
 input[type=text] {
     float: right;
