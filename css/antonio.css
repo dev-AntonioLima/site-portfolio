@@ -30,12 +30,11 @@ position: relative;
 
 
 nav{
-
 display: flex;
 justify-content: space-between; 
 align-items: center;
 height: 75px;
-background-color: rgb(18, 78, 156);
+background-color: rgb(12, 54, 109);;
 box-shadow: 2px 2px 12px rgba(163, 59, 59, 0.2);
 padding: 0px 5%;
 }
@@ -214,12 +213,12 @@ padding: 0.75em;
 
 .sobre{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.555),rgba(34, 31, 31, 0.5)100%);
+    background-color: rgb(12, 54, 109);
     width: 100%;
     height: 400px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-top: 30px;
+    margin-top: 100px;
     display: inline-flex;
     justify-content: center;
     align-items: flex-start;
@@ -230,16 +229,17 @@ padding: 0.75em;
     width: 350px;
     margin-top: 20px;
     margin-left: 10px;
+    margin-right: 20px;
     border-radius: 300px;
     float: left;
 }
 
 .sobre #tecnologias-img{
-    height: 150px;
+    height: 100px;
     width: 250px;
-    margin-right: 50px;
-    margin-left: 50px;
-    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 
 .sobre-texto{
@@ -254,10 +254,11 @@ padding: 0.75em;
 }
 
  #tecnologias{
-     font-weight: bold;
+    font-weight: bold;
     font-size: 30px;
     text-align: center;
     margin-right: 20px;
+    margin-left: 20px;
     color: #fff;
 }
 
