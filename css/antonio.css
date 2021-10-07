@@ -237,19 +237,12 @@ padding: 0.75em;
 .sobre #tecnologias-img{
     height: 100px;
     width: 250px;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
 }
 
 .sobre-texto{
     font-weight: bold;
     text-align: justify;
-    padding: 40px;
-    padding-left: 120px;
-    padding-right: 250px;
     font-size: 36px;
-    margin-right: 20px;
     color: #fff;
 }
 
