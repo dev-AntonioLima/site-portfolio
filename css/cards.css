@@ -29,13 +29,10 @@ nav ul{
     align-items: right;
     }
 
-
-
-
     .cards{
         flex-direction: column;
         margin: 2px;
-        height:130vh;
+        height: 180vh;
     }
     .card{
         margin-bottom: 20px;
