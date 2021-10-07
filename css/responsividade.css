@@ -82,7 +82,6 @@ padding: 50px;
 text-align: center;
 margin-top: 10%;
 font-size: 40px;
-background-color:#140d1b2c;
 font-family: 'Arial Black' , Times;
 }
 
@@ -90,11 +89,14 @@ font-family: 'Arial Black' , Times;
 font-size: 20px;
 }
 
-
-
-
-
-
+.sobre-texto{
+    font-weight: bold;
+    text-align: justify;
+    padding: 0px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+}
 
 
 }
@@ -158,11 +160,10 @@ box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 .sobre{
 display: flex;
 flex-direction: column;
-padding: 50px;
+padding: 0px;
 text-align: center;
 margin-top: 10%;
 font-size: 30px;
-background-color:#140d1b2c;
 font-family: 'Arial Black' , Times;
 }
 

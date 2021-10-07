@@ -180,38 +180,6 @@ width: 300px;
 height: 300px;    
 }
 
-.works-container{
-background-color: rgb(19, 16, 16); 
-}
-
-.titleworks{
-text-align: center;
-color: #FFFFFF;
-font-size: 40px;
-margin-top: 5px;
-}
-
-
-
-.works-text{
-font-size: 30px;    
-text-align: center;
-}
-
-figure { 
-background-color: rgb(211, 197, 197) ;
-display: inline-block;
-width: 30%;
-text-align: center;
-font-style: italic;
-font-size: 20px;
-text-indent: 0;
-border-radius: 10px;
-border: thin gray;
-margin: 0.7em;
-padding: 0.75em;
-}
-
 .sobre{
     font-size: 16px;
     background-color: rgb(12, 54, 109);
