@@ -53,12 +53,14 @@ font-weight:700;
 align-items: right;
 }
 
+/* Ativado */
  .nav-link.active, .nav-link.active i{
     color: rgb(255, 255, 255);
 }
 
+/* Padrão */
 .nav-link i{
-    color: #6b6a6a;;
+    color: #f3efef96;
 }
 
 
