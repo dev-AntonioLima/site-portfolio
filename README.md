@@ -7,10 +7,15 @@ Repositório destinado ao meu site pessoal para demonstração de trabalhos real
 
 # Desktop - Início:
 <p align="center">
-<img src="img/index.png">
+<img src="img/prints/site-desktop_inicio.jpg">
 <p>
 
 # Desktop - Meu Portifólio:
 <p align="center">
-<img src="img/works.png">
+<img src="img/prints/site-desktop_works.jpg">
+<p>
+
+# Mobile - Meu Portifólio:
+<p align="center">
+<img src="img/prints/site-mobile.jpeg">
 <p>
