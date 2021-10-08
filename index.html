@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsividade.css">
+    <link rel="stylesheet" media="all" href="ContatoEstilo.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Scripts-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -23,6 +24,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
         integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
         crossorigin="anonymous"></script>
+        <script src="js/form.js"></script>
 
 </head>
 
@@ -89,12 +91,25 @@
                     </ul>
                     
 
-              
+                    <form name="meu_form">
+
+                        <h1>Entre em contato</h1>
+
+                        <input type="text" id="nomeid" placeholder="Nome" required="required" name="nome" />
+                       <br>
+                        <input type="tel" id="foneid" placeholder="Celular" name="fone" />
+                       
+                        <input type="email" id="emailid" placeholder="E-mail" name="email" />
+                       
+                        <textarea placeholder="Assunto"></textarea>
+                      
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                      </form>
 
             </div>
-
+          
         </div>
-
+      
 </div>
 
 
@@ -102,6 +117,11 @@
 
 
 </body>
+
+
+
+
+
 <!--footer-->
 <div class="footer">
     <span class="text-muted">Copyright © Antonio Lima - 2021</span>
