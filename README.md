@@ -10,7 +10,7 @@ Repositório destinado ao meu site pessoal para demonstração de trabalhos real
 <img src="img/prints/site-desktop_inicio.jpg">
 <p>
 
-# Desktop - Meu Portifólio:
+# Desktop - Meu Portfólio:
 <p align="center">
 <img src="img/prints/site-desktop_works.jpg">
 <p>
