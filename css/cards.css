@@ -7,7 +7,7 @@
    
 }
 
-@media(max-width:500px){
+@media(max-width:700px){
 
 nav{
     display: flex;
@@ -73,8 +73,8 @@ font-size: 28px;
 }
 
 .card-text p {
-    margin-top: -15px;
-color: grey;
+ margin-top: -15px;
+color: rgb(95, 94, 94);
 font-size: 20.5px;
 font-weight: 300;
 }
