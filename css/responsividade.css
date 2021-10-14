@@ -24,7 +24,8 @@ width: 190px;
 }
 
 .sobre #tecnologias-img{
-    height: 50px;
+    flex-direction: column;
+    height: 100px;
 }
 
 .sobre-texto{
@@ -38,10 +39,14 @@ width: 190px;
 
  #tecnologias{
     font-weight: bold;
+    margin-right: 0px;
+    margin-left: 0px;
     font-size: 15px;
     text-align: center;
     color: #fff;
 }
+
+
 
 }
 
@@ -168,7 +173,6 @@ font-family: 'Arial Black' , Times;
 }
 
 .sobre img{
-    display: flex;
     align-content: space-between;
     height: 250px;
     width: 250px;
