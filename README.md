@@ -15,6 +15,11 @@ Repositório destinado ao meu site pessoal para demonstração de trabalhos real
 <img src="img/prints/site-desktop_works.jpg">
 <p>
 
+# Desktop - Certificados:
+<p align="center">
+<img src="img/prints/site-desktop_certificados.jpg">
+<p>
+
 # Mobile - Meu Portifólio:
 <p align="center">
 <img src="img/prints/site-mobile.jpeg">
