@@ -8,6 +8,7 @@
 }
 
 .cards-certification{
+    display: flex;
     width: 100vw;
     height: 85vh;
     display: flex;
@@ -44,10 +45,12 @@ nav ul{
     }
 
     .cards-certification{
-        flex-direction: row;
-        margin: 2px;
-        height: 10vh;
+        flex-direction: column;
+        height: 180vh;
+        margin-right: 3%;
+        margin-left: 2%;
     }
+
     .card{
         margin-bottom: 20px;
     }
@@ -77,11 +80,10 @@ margin-left: 5%;
 
 .card-certification {
     display: grid;
-    grid-template-columns: 500px;   
-    grid-template-rows: 300px; 
+    grid-template-columns: 350px;   
+    grid-template-rows: 250px; 
     grid-template-areas: "image";
-    margin-right: 20%;
-    margin-left: 2%;
+    margin: 5%;
     
     
     font-family: roboto;
@@ -139,5 +141,11 @@ color: rgb(58, 61, 58);
 transform: scale(1.1);
 box-shadow: 5px 5px 15px rgba(148, 133, 133, 0.6);
 }
+
+.card-certification:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(148, 133, 133, 0.6);
+    }
+
 
 
