@@ -10,14 +10,6 @@ margin-top: 5px;
 width: 190px;
 }
 
-.sobre #profile{
-    flex-direction: row;
-    align-self: center;
-    margin-left: 5%;
-    height: 150px;
-    width: 150px;
-}
-
 .sobre #tecnologias-img{
     flex-direction: column;
     height: 100px;
@@ -53,10 +45,6 @@ width: 190px;
 }
 
 @media screen and (max-width: 900px){
-.descricao{
-width: 50%;
-
-}
 
 herder.container{
     flex-direction: column;
