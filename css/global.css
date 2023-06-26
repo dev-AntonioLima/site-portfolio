@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    font-family: 'Fira Sas', Arial, sans-serif;
+    color: #141414;
+}
+
+.container {
+    align-items: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+img {
+    display: block;
+}
+
+.titulo-section {
+    text-transform: uppercase;
+}
+
+.subtitulo {
+    font-size: 8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    word-break: break-all;
+    min-width: 4ch;
+}
