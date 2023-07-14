@@ -53,6 +53,11 @@
 
 
 @media (max-width: 800px) {
+
+    .header {
+        place-content: center;
+    }
+
     .header-menu {
         display: none;
     }

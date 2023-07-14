@@ -1,5 +1,5 @@
 .introducao {
-    min-width: 1200px;
+    max-width: 1200px;
     padding: 40px 20px;
     margin: 0 auto;
     display: grid;
@@ -51,9 +51,11 @@
 }
 
 @media (max-width: 800px){
+
     .introducao {
         grid-template-columns: 1fr;
         gap: 40px;
+        justify-items: center;
     }
 
     #introducao-perfil img {
