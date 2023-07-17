@@ -27,6 +27,16 @@ img {
     text-transform: uppercase;
 }
 
+.titulo-section::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    gap: 10px 20px;
+}
+
 .subtitulo {
     font-size: 8rem;
     line-height: 1;

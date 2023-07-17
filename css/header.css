@@ -9,14 +9,12 @@
 
 .header span {
     font-size: 1.5rem;
-    color: #141414;
     text-decoration: none;
     font-weight: bold;
     display: block;
-    /* border-width: 4px;
-    border-image: linear-gradient(to right, #b6f829, #67dd0a) 1;
-    animation: moveGradient 4s alternate infinite; */
 }
+
+
 
 .header span i {
     padding: 0px 5px;
@@ -41,10 +39,10 @@
 }
 
 .header-menu a:hover {
-    border-style:  2px solid;
-    border-color:#67dd0a;
+    border-style: 2px solid;
+    border-color: #67dd0a;
     color: #67dd0a;
-   
+
 }
 
 .header-menu a i {
