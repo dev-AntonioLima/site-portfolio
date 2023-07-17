@@ -48,6 +48,14 @@
     border-radius: .875rem;
 }
 
+.curso-ano {
+    font-size: 0.875rem;
+    text-align: left;
+    width: 80px;
+    color: #a3a3a3;
+    font-weight: bold;
+}
+
 .curso-tipo {
     font-size: 0.875rem;
     text-transform: uppercase;
