@@ -14,9 +14,20 @@
     display: block;
 }
 
-
+.header span::after {
+    content: "";
+    display: block;
+    width: 250px;
+    height: 3px;
+    background: linear-gradient(#b6f829, #67dd0a);
+    position: absolute;
+    gap: 10px 20px;
+}
 
 .header span i {
+    background: -webkit-linear-gradient(#b6f829, #67dd0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 0px 5px;
 }
 
