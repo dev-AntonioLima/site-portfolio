@@ -48,6 +48,7 @@
     .introducao h1 {
         font-size: 3rem;
     }
+
 }
 
 @media (max-width: 800px){
@@ -56,6 +57,10 @@
         grid-template-columns: 1fr;
         gap: 40px;
         justify-items: center;
+    }
+
+    .introducao h1::before {
+        display: none;
     }
 
     #introducao-perfil img {
@@ -68,6 +73,7 @@
 
 .introducao h1 {
     font-size: 2rem;
+    text-align: center;
 }
 
 .introducao h1::before {
