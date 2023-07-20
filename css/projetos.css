@@ -54,15 +54,25 @@
     } */
 }
 
+
+.ordem {
+    display: grid;
+    position: relative;
+    font-size: 24px;
+    place-content: center;
+    border-radius: 2px;
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(#b6f829, #67dd0a);
+}
+
 .card {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 190px 50px;
     grid-template-areas: "image" "text" "stats";
     margin-right: 3%;
-    margin-left: 2%;
-
-
+    margin-left: 2%;s
     font-family: roboto;
     background: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
