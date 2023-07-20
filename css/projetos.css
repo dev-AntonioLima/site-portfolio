@@ -17,8 +17,14 @@
     height: 85vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    /* justify-content: center; */
+    gap: 40px;
+    padding: 0 20px;
+    padding: 0 20px 20px 20px;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
 }
 
 
@@ -32,20 +38,20 @@
         align-items: right;
     }
 
-    .cards {
+    /* .cards {
         flex-direction: column;
         margin: 2px;
         height: 230vh;
-    }
+    } */
 
 
     .card {
         margin-bottom: 20px;
     }
 
-    .card:last-child {
+    /* .card:last-child {
         margin-bottom: 0px;
-    }
+    } */
 }
 
 .card {
