@@ -70,13 +70,16 @@
     }
 
     .header-menu {
+        background: #f5f5f5;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        border-radius: 4px;
+        gap: 5px;
         margin-top: 10px;
     }
 
     .header-menu a{
+        border: 2px solid #c5bcbc8c;
         font-size: 0.8rem;
         padding: 5px 5px;
     }
