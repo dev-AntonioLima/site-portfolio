@@ -42,7 +42,7 @@
     font-weight: bold;
     font-size: 0.875rem;
     text-align: right;
-    width: 80px;
+    max-width: max-content;
 }
 
 .empresa-titulo {
